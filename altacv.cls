@@ -295,10 +295,11 @@
 
 % v1.1.4: fixes inconsistent font size
 % v1.7: adds accsupp ActualText for location and date markers
-\newcommand{\cvevent}[4]{%
+\newcommand{\cvevent}[5]{%
   {\large\color{emphasis}#1 
   \hfill
   \textbf{\color{accent}#2}
+  #5
    \par}
   % \smallskip\normalsize
   % \ifstrequal{#2}{}{}{
