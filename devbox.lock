@@ -1,0 +1,89 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "texliveFull@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#texliveFull",
+      "source": "devbox-search",
+      "version": "2023-env",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vdp6gd7n55n0r6igq61y6qj4rgysphfk-texlive-2023-env",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/hms6yl89nviw4byk395wqwqc85sdlpj7-texlive-2023-env-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/ld1z0f2z1wk4y4d6gpczf7ffrf8v9pf8-texlive-2023-env-info"
+            }
+          ],
+          "store_path": "/nix/store/vdp6gd7n55n0r6igq61y6qj4rgysphfk-texlive-2023-env"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c3wmajrys1m9p9jlr2y00h5d5cqrx9j6-texlive-2023-env",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/rxq74w1ay7qfnqpdgpsszhk7gqhwwpcg-texlive-2023-env-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/dya6kbvig72bnfz1b5dp32pbvxvcyp19-texlive-2023-env-info"
+            }
+          ],
+          "store_path": "/nix/store/c3wmajrys1m9p9jlr2y00h5d5cqrx9j6-texlive-2023-env"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cqg70jqslcw38xcamknsp3shcnfwy55y-texlive-2023-env",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/mw60bvbjz61mssi0kjpbw6aar6xm0x8y-texlive-2023-env-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/mjqfgxa7qi89lhah8pq5g5vd2n1i97ad-texlive-2023-env-info"
+            }
+          ],
+          "store_path": "/nix/store/cqg70jqslcw38xcamknsp3shcnfwy55y-texlive-2023-env"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/az1jhn90azap29ssvgda2rn97xcji1cz-texlive-2023-env",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/lyi6fd29kig999rlpaqdyfczr9vaf3jq-texlive-2023-env-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/iw1kx1p4j012jnrjspm02vwx6nqnd3s8-texlive-2023-env-info"
+            }
+          ],
+          "store_path": "/nix/store/az1jhn90azap29ssvgda2rn97xcji1cz-texlive-2023-env"
+        }
+      }
+    }
+  }
+}
