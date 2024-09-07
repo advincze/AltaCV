@@ -298,9 +298,11 @@
 \newcommand{\cvevent}[5]{%
   {\large\color{emphasis}#1 
   \hfill
+  \large
   \textbf{\color{accent}#2}
+  \small 
   #5
-   \par}
+  \par}
   % \smallskip\normalsize
   % \ifstrequal{#2}{}{}{
   % \textbf{\color{accent}#2}\par
@@ -309,7 +311,8 @@
   {
     \ifstrequal{#3}{}{}{%
     {\small\makebox[0.5\linewidth][l]%
-      {\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
+      {
+      \BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
       ~#3}%
     }}%
     \ifstrequal{#4}{}{}{%
