@@ -305,16 +305,18 @@
   % \textbf{\color{accent}#2}\par
   % \smallskip
   % }
-  \ifstrequal{#3}{}{}{%
+  {
+    \ifstrequal{#3}{}{}{%
     {\small\makebox[0.5\linewidth][l]%
       {\BeginAccSupp{method=pdfstringdef,ActualText={\datename:}}\cvDateMarker\EndAccSupp{}%
       ~#3}%
     }}%
-  \ifstrequal{#4}{}{}{%
-    {\small\makebox[0.5\linewidth][l]%
+    \ifstrequal{#4}{}{}{%
+    {\small\makebox[0.5\linewidth][r]%
       {\BeginAccSupp{method=pdfstringdef,ActualText={\locationname:}}\cvLocationMarker\EndAccSupp{}%
         ~#4}%
     }}\par
+  }
   \medskip\normalsize
 }
 
