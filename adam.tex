@@ -25,18 +25,7 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
-
-% Change the font if you want to, depending on whether
-% you're using pdflatex or xelatex/lualatex
-% WHEN COMPILING WITH XELATEX PLEASE USE
-% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
-\ifxetexorluatex
-  % If using xelatex or lualatex:
-  \setmainfont{Lato}
-\else
-  % If using pdflatex:
-  \usepackage[default]{lato}
-\fi
+\usepackage[default]{lato}
 
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{0277BD}
