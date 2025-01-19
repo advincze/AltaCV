@@ -30,7 +30,7 @@
 % you're using pdflatex or xelatex/lualatex
 % WHEN COMPILING WITH XELATEX PLEASE USE
 % xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
-\ifxetexorluatex
+\iftutex
   % If using xelatex or lualatex:
   \setmainfont{Lato}
 \else
@@ -250,6 +250,8 @@
 \cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
 
 \cvsection{Strengths}
+
+% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
 
 \cvtag{Hard-working (18/24)}
 \cvtag{Persuasive}\\
