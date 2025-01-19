@@ -25,7 +25,14 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
-\usepackage[default]{lato}
+\iftutex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
 
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{0277BD}
