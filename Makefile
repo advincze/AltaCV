@@ -10,3 +10,5 @@ adam.pdf:
 
 anna.pdf:
 	pdflatex anna.tex
+	biber anna
+	pdflatex anna.tex

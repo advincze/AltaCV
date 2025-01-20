@@ -74,14 +74,14 @@
 %% Use (and optionally edit if necessary) this .tex if you
 %% want to use an author-year reference style like APA(6)
 %% for your publication list
-% \input{pubs-authoryear.cfg}
+\input{pubs-authoryear.cfg}
 
 %% Use (and optionally edit if necessary) this .tex if you
 %% want an originally numerical reference style like IEEE
 %% for your publication list
 
 %% sample.bib contains your publications
-% \addbibresource{sample.bib}
+\addbibresource{anna.bib}
 
 \begin{document}
 \name{Anna Szentirmay}
@@ -221,15 +221,15 @@
 % %% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
 % %% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
 % %% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-% \mynames{Lim/Lian\bibnamedelima Tze,
-%   Wong/Lian\bibnamedelima Tze,
-%   Lim/Tracy,
-%   Lim/L.\bibnamedelimi T.}
+\mynames{Lim/Lian\bibnamedelima Tze,
+  Wong/Lian\bibnamedelima Tze,
+  Lim/Tracy,
+  Lim/L.\bibnamedelimi T.}
 % %% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-% \nocite{*}
+\nocite{*}
 
-% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
 
 % \divider
 
