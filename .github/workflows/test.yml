@@ -16,3 +16,7 @@ jobs:
 
       - name: Run a script called test
         run: devbox run make all
+
+      - uses: actions/upload-artifact@v4
+        with:
+          path: *.pdf
