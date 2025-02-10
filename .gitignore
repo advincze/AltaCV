@@ -1,0 +1,11 @@
+.devbox/
+*.log
+*.out
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.xmpi
+
+*.pdf
